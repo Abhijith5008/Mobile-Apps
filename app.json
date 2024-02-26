@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Notes",
+    "slug": "Notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/NotesLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fcfcf7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rempays.notes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/NotesLogo.png",
+        "backgroundColor": "#fcfcf7"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.rempays.notes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "df521c02-3bae-478b-9590-2225bd486952"
+      }
+    }
+  }
+}
